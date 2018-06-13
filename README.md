@@ -57,3 +57,6 @@ ReactDOM.render(<main_app>,
 * *We use function for stateless component and class for stateful component*
 * *Components data flow in unidirectional manner in top-down approach.*
 > If you imagine a component tree as a waterfall of props, each component’s state is like an additional water source that joins it at an arbitrary point but also flows down.
+
+
+
