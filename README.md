@@ -28,6 +28,7 @@ ReactDOM.render(<main_app>,
 ```javascript
     class Class_Name extends React.Component
     {
+      constructor();
       render(){
         return(
         
@@ -35,3 +36,21 @@ ReactDOM.render(<main_app>,
       };
     }
 ```
+* *constructor should always call super() before initializing any states*
+* *All the states has to be defined in constructor()*
+* *props will be preceded by this. when using class as component*
+* *State inside constructor is a state* *
+* *Class constructor should always call super() by passing props as arguments in it* 
+* *Rendering when component is created is known as 'mounting' and destroying the component is known as 'unmounting'*
+* *There are two methods which are known as 'lifecycle hooks' which are componentDidMount() and componentWillUnmount() which    are called on creation and destruction respectively.*
+* *this.setState() will take an object as argument and used to change the state of data so it will re-render the component      when some data is changed.For Eg:*
+```javascript
+  function user(username)
+  {
+    //This changes the old username with new one hence updating the component
+    this.setState({userName:username})
+  }
+```
+
+
+
