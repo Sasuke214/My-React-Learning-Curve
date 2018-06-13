@@ -42,7 +42,7 @@ ReactDOM.render(<main_app>,
 * *State inside constructor is a state* *
 * *Class constructor should always call super() by passing props as arguments in it* 
 * *Rendering when component is created is known as 'mounting' and destroying the component is known as 'unmounting'*
-* *There are two methods which are known as 'lifecycle hooks' which are componentDidMount() and componentWillUnmount() which    are called on creation and destruction respectively.*
+* *There are two methods which are known as 'lifecycle hooks' which are **componentDidMount()** and          **componentWillUnmount()** which    are called on creation and destruction respectively.*
 * *this.setState() will take an object as argument and used to change the state of data so it will re-render the component      when some data is changed.For Eg:*
 ```javascript
   function user(username)
@@ -51,6 +51,9 @@ ReactDOM.render(<main_app>,
     this.setState({userName:username})
   }
 ```
-
-
+* *Updating State directly will no re-render the component hence setstate has to be used*
+* *state of a component is local to it hence cannot be accessible outside that component*
+* *state of a component is passed as props to its children.*
+* *We use function for stateless component and class for stateful component*
+* *Components data flow in unidirectional manner in top-down approach.*
 
