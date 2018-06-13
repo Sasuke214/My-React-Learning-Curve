@@ -1,6 +1,6 @@
 # My-React-Learning-Curve
 
-## Abstract
+## Some Random Pointers
 
 * *we need to keep id as root of element where we wanna embed our react components in main html*
 * *ReactDOM has a function called render which main task is to render our main component in our html.*
