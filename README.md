@@ -58,5 +58,6 @@ ReactDOM.render(<main_app>,
 * *Components data flow in unidirectional manner in top-down approach.*
 > If you imagine a component tree as a waterfall of props, each component’s state is like an additional water source that joins it at an arbitrary point but also flows down.
 
+* *To Use Function in class it should always be binded with constructor if you want that function to access state, or mainly    to use anything related with this keyword*
 
 
